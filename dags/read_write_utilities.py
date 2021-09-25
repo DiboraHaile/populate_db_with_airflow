@@ -1,10 +1,10 @@
 import pandas as pd
 import os
+import numpy as np
 
 def txt_to_csv(path):
     """
-    extract text data from the filename proposed and return
-    pandas dataframe
+    convert text data to csv file
     Args:
     -----
     path: str - path of directory containing text files
